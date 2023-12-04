@@ -1,0 +1,17 @@
+a {
+    color: black;
+    text-decoration: none;
+
+    &:hover,
+    &:active {
+        text-decoration: underline;
+        color: $secondary-color;
+        cursor: pointer;
+    }
+}
+
+#welcome ul img:hover,
+#welcome ul img:active {
+    filter: invert(35%) sepia(18%) saturate(2031%) hue-rotate(216deg)
+        brightness(88%) contrast(81%);
+}

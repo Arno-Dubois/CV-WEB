@@ -1,0 +1,24 @@
+.list--inline {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0.3rem;
+}
+
+nav {
+    transition: all 1s;
+    ul {
+        text-transform: uppercase;
+    }
+}
+
+#welcome ul img {
+    height: 3rem;
+}
+
+footer ul {
+    @include respond-to("small") {
+        padding: 1rem 0;
+    }
+}

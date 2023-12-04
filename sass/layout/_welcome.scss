@@ -1,0 +1,13 @@
+#welcome {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: $tertiary-color;
+    padding-bottom: 1rem;
+    font-family: "Young Serif", serif;
+}
+
+#welcome img {
+    height: 13rem;
+    padding: 0.5rem;
+}

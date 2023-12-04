@@ -1,0 +1,23 @@
+$primary-color: #21005d;
+$secondary-color: #6750a4;
+$tertiary-color: #eaddff;
+
+$grid-image-size: 4rem;
+
+$skills: (
+    "HTML": 90%,
+    "CSS": 80%,
+    "JS": 85%,
+    "PHP": 60%,
+    "SQL": 50%,
+    "C": 75%,
+);
+
+$breakpoints: (
+    "small": (
+        max-width: 570px,
+    ),
+    "medium": (
+        max-width: 1024px,
+    ),
+);

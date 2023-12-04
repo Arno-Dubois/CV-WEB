@@ -1,0 +1,9 @@
+footer img {
+    vertical-align: middle;
+}
+
+#copyright {
+    @include respond-to("medium") {
+        order: 1;
+    }
+}

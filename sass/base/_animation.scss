@@ -1,0 +1,16 @@
+#competence ul li {
+    background-color: $secondary-color;
+    width: 8rem;
+    border: 2px $primary-color solid;
+    border-radius: 13px;
+    padding: 3px;
+    transition: width 3s ease-in-out;
+}
+
+@each $skill, $value in $skills {
+    $i: index($skills, $skill $value);
+    #competence:hover ul li:nth-child(#{$i}),
+    #competence:active ul li:nth-child(#{$i}) {
+        width: $value;
+    }
+}
